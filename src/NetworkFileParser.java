@@ -44,16 +44,16 @@ public class NetworkFileParser {
         return capacityArray;
     }
 
-    public void printCapacityMatrix(int[][] capacityArray) {
-        int n = capacityArray.length;
-
-        System.out.println("\nCapacity Matrix:");
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                System.out.print(capacityArray[i][j] + "\t");
-            }
-            System.out.println();
-        }
-    }
+//    public void printCapacityMatrix(int[][] capacityArray) {
+//        int n = capacityArray.length;
+//
+//        System.out.println("\nCapacity Matrix:");
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                System.out.print(capacityArray[i][j] + "\t");
+//            }
+//            System.out.println();
+//        }
+//    }
 
 }
